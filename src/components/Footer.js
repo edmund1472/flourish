@@ -22,7 +22,7 @@ export default function Footer(){
                 <div className=" flex flex-col gap-8">
                     <img src="flourishspelledout.png" className=" h-40 -mt-12 text-complementary font-bold"></img>
                     <h3 className="text-lg text-secondary text-opacity-50">© 2024 Flourish Management. All Rights Reserved</h3>
-                    <h3 className="text-lg text-secondary text-opacity-50">Designed by <a href="https://github.com/kaane5662" className="underline hover:text-complementary text-secondary">Kaan</a></h3>
+                    <h3 className="text-lg text-secondary text-opacity-50">Designed by <a href="" className="underline hover:text-complementary text-secondary">Kaan</a></h3>
                 </div>
             </div>
         </main>

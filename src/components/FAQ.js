@@ -1,5 +1,5 @@
-import Question from "./Question";
 import { motion } from "framer-motion";
+import Question from "./Question";
 
 export default function FAQ(){
     return(
@@ -27,9 +27,8 @@ export default function FAQ(){
                 className="flex flex-col gap-8 items-center justify-center">
                     <Question question={"How much account growth will I see?"} answer={"Your account can grow from 50% to 300%. It depends on the work you put in, our chatters will be there to help you grow and make money."}></Question>
                     <Question question={"I have no experience yet, will I even be considered?"} answer={"While our main goal is to significantly expand existing accounts, we also welcome new users. When evaluating applications for success, we consider various aspects."}></Question>
-                    <Question question={"What percentage of earnings will the agency take??"} answer={"The answer varies depending on your creator status."}></Question>
+                    <Question question={"What percentage of earnings will the agency take?"} answer={"The answer varies depending on your creator status."}></Question>
                     <Question question={"Can I retain ownership of my content?"} answer={"Absolutely, we will have no right to your content."}></Question>
-                    <Question question={"Are there any contractual obligations or exclusivity requirements?"} answer={"The answer varies depending on your creator status."}></Question>
                     <Question question={"How do I start working with you?"} answer={"You can directly apply here or via messaging Flourish on Instagram. We carefully review your provided information and reach out to you within the next 24 hours."}></Question>
                 </motion.div>
                 
